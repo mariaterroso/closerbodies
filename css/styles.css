@@ -1,0 +1,8 @@
+.gradient {
+    height: 100vh;
+    background-image: linear-gradient(to bottom left, #ffffff, #292929);
+}
+
+.main-button {
+    width: 32vw;
+}
