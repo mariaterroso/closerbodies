@@ -24,7 +24,7 @@ if (isset($_GET['cartaz'])) {
 
 <body class="gradient">
     <main class="container">
-        <div class="row box-color p-2">
+        <div class="row bg-secondary p-2">
             <a href="./index.php" class="text-decoration-none">
                 <i class="fa fa-arrow-left text-white">&nbsp; VOLTAR</i>
             </a>

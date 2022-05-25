@@ -14,17 +14,16 @@
     <link rel="icon" href="./img/Group.svg" type="image/svg+xml">
 </head>
 
-<body class="gradient-animation">
+<body class="gradient">
     <main class="container">
-    <div class="circle"></div>
-        <div class="row box-color p-2">
+        <div class="row bg-secondary p-2">
             <a href="./index.php" class="text-decoration-none">
                 <i class="fa fa-arrow-left text-white">&nbsp; VOLTAR</i>
             </a>
         </div>
 
         <div class="row p-3 my-2">
-        <img src="./img/Group.svg" class="img-fluid angry-animate-2" style="width: 37%;" >
+            <img src="./img/Group.svg" class="img-fluid w-25">
         </div>
 
         <div class="row mb-3">

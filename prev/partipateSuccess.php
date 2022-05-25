@@ -39,7 +39,7 @@ include("connection.php");
 
                 ?>
 
-                <div class="row box-color p-2">
+                <div class="row bg-secondary p-2">
                     <a href="./collected.php" class="text-decoration-none">
                         <i class="fa fa-arrow-left text-white">&nbsp; BACK</i>
                     </a>
@@ -72,7 +72,7 @@ include("connection.php");
 
                 ?>
 
-                <div class="row box-color p-2">
+                <div class="row bg-secondary p-2">
                     <a href="./index.php" class="text-decoration-none">
                         <i class="fa fa-arrow-left text-white">&nbsp; BACK</i>
                     </a>

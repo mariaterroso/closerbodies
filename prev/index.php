@@ -14,49 +14,49 @@
     <link rel="icon" href="./img/Group.svg" type="image/svg+xml">
 </head>
 
-<body class="gradient-animation">
+<body class="gradient">
     <main class="container my-4">
         <div class="row mb-3">
-            <div class="d-flex justify-content-center ">
+            <div class="d-flex justify-content-center">
                 <img src="./img/Group.svg" class="img-fluid w-50">
             </div>
         </div>
 
         <div class="row mb-1">
-            <div class="d-flex justify-content-center flex-column p-3 text-color">
+            <div class="d-flex justify-content-center flex-column p-3 text-danger">
                 <div class="text-uppercase text-center fs-1 fw-bolder">parabéns</div><br>
                 <div class="text-uppercase text-center fs-6 fw-bolder">Encontraste 1/4 do Cartaz do Festival Circular!</div>
             </div>
         </div>
 
         <div class="row">
-            <div class="p-4 col-6 d-flex justify-content-center angry-animate">
+            <div class="p-4 col-6 d-flex justify-content-center">
                 <a href="./participate.php" class="text-decoration-none">
-                    <div class="d-flex align-items-center flex-column p-3 mb-2 box-color text-white  rounded-3 main-button">
+                    <div class="d-flex align-items-center flex-column p-3 mb-2 bg-danger text-white  rounded-3 main-button">
                         <i class="fa fa-gamepad" style="font-size: 50px;"></i>
                         <p>PARTICIPAR</p>
                     </div>
                 </a>
             </div>
-            <div class="p-4 col-6 d-flex justify-content-center angry-animate">
+            <div class="p-4 col-6 d-flex justify-content-center">
                 <a href="./signin.php" class="text-decoration-none">
-                    <div class="d-flex align-items-center flex-column p-3 mb-2 box-color text-white  rounded-3 main-button">
+                    <div class="d-flex align-items-center flex-column p-3 mb-2 bg-danger text-white  rounded-3 main-button">
                         <i class="fa fa-check-circle-o" style="font-size: 50px;"></i>
                         <p>COLECTADO</p>
                     </div>
                 </a>
             </div>
-            <div class="p-4 col-6 d-flex justify-content-center angry-animate">
+            <div class="p-4 col-6 d-flex justify-content-center">
                 <a href="./awards.php" class="text-decoration-none">
-                    <div class="d-flex align-items-center flex-column p-3 mb-2 box-color text-white rounded-3 main-button">
+                    <div class="d-flex align-items-center flex-column p-3 mb-2 bg-danger text-white rounded-3 main-button">
                         <i class="fa fa-star" style="font-size: 50px;"></i>
                         <p>PRÉMIOS</p>
                     </div>
                 </a>
             </div>
-            <div class="p-4 col-6 d-flex justify-content-center angry-animate">
+            <div class="p-4 col-6 d-flex justify-content-center">
                 <a href="./info.php" class="text-decoration-none">
-                    <div class="d-flex align-items-center flex-column p-3 mb-2 box-color text-white  rounded-3 main-button">
+                    <div class="d-flex align-items-center flex-column p-3 mb-2 bg-danger text-white  rounded-3 main-button">
                         <i class="fa fa-info-circle" style="font-size: 50px;"></i>
                         <p>INFO</p>
                     </div>

@@ -6,3 +6,93 @@
 .main-button {
     width: 32vw;
 }
+
+.text-color {
+    color: #a4a4a4 !important;
+    text-shadow:3px 3px 5px #4d4d4d;
+
+}
+
+.top-color {
+    color: #494949;
+}
+
+.box-color {
+    background-color: #494949;
+}
+
+.angry-animate {
+    -webkit-animation: appear 1s ease 0s 1 normal;
+    -moz-animation: appear 1s ease 0s 1 normal;
+    -ms-animation: appear 1s ease 0s 1 normal;
+    animation: appear 1s ease 0s 1 normal;
+}
+
+@-webkit-keyframes appear {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+
+    60% {
+        opacity: 1;
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+
+.angry-animate-2{
+    -webkit-animation:rotate 2s ease 1s 1 normal;
+    -moz-animation:rotate 2s ease 1s 1 normal;
+    -ms-animation:rotate 2s ease 1s 1 normal;
+    animation:rotate 2s ease 1s 1 normal;
+    }
+    
+    @-webkit-keyframes rotate {
+    100%{ -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+    }
+    @keyframes rotate {
+    100%{ transform: rotate(360deg); }
+    }
+
+
+
+
+.circle {
+    border-radius: 999px;
+    position: absolute;
+    left: -250px;
+    top: -250px;
+    width: 500px;
+    height: 500px;
+    z-index: -1;
+    background: radial-gradient(#ffffff, #292929);
+}
+
+.gradient-animation {
+    height: 100vh;
+    background: linear-gradient(339deg, #1a1a1a, #3d3d3d);
+    background-size: 400% 400%;
+
+    animation: AnimationName 12s ease infinite;
+}
+
+@keyframes AnimationName {
+    0%{background-position:23% 0%}
+    50%{background-position:78% 100%}
+    100%{background-position:23% 0%}
+}
