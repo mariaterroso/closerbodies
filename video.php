@@ -17,13 +17,13 @@
 
 <?php
 include("connection.php");
-$videoFileName = "DanceVideo.mp4";
+$videoFileName = "dancebw.mov";
 ?>
 
 <body class="gradient">
     <main class="container">
         <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="./video/DanceVideo.mp4" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" src="./video/dancebw.mov" allowfullscreen></iframe>
         </div>
     </main>
 </body>

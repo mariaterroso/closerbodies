@@ -34,16 +34,16 @@
         </div>
 
         <div class="row mx-2">
-            <div class="col-12 p-0 border border-info">
+            <div class="col-12 p-0">
                 <div class="text-danger d-flex flex-column align-items-center" style="background-color: grey;">
                     <div class="text-uppercase fs-3">O QUE É A CIRCULAR?</div>
-                    <div>A Circular constituiu-se enquanto Associação Cultural em 2006, tendo iniciado informalmente 
+                    <div class="p-1">A Circular constituiu-se enquanto Associação Cultural em 2006, tendo iniciado informalmente 
                         actividade em 2004. Sediada em Vila do Conde, promove anualmente, desde 2005, 
                         o Circular Festival de Artes Performativas. O Festival apresenta criações que percorrem 
                         diferentes áreas artísticas como a dança, a performance, o teatro, a música e as artes visuais. 
                     </div>
                     <div class="text-uppercase fs-3">OBJETIVOS</div>
-                    <div>A Circular - Associação Cultural tem como objectivos centrais da sua actividade: 
+                    <div class="p-1">A Circular - Associação Cultural tem como objectivos centrais da sua actividade: 
                         divulgar as artes performativas contemporâneas, aproximar as artes performativas dos 
                         públicos e do contexto local, apoiar a criação artística, e proporcionar a reflexão em 
                         torno das práticas artísticas contemporâneas.

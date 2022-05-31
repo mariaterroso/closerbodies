@@ -34,15 +34,36 @@
         </div>
 
         <div class="row mx-2">
-            <div class="col-8 p-0 border border-info">
+            <div class="col-8 p-0">
                 <div class="text-danger d-flex flex-column align-items-center" style="background-color: grey;">
                     <div class="text-uppercase fs-3">Bilhetes</div>
-                    <div>Se for o primeiro classificado, ganha 2 bilhetes para o Festival Circular 2022.
+                    <div class="p-1">Se for o primeiro classificado, ganha 2 bilhetes para o Festival Circular 2022.
+                    </div>
+                </div>
+                <br>
+                <div class="text-danger d-flex flex-column align-items-center" style="background-color: grey;">
+                    <div class="text-uppercase fs-3">T-shirts</div>
+                    <div class="p-1">2º até ao 5º Lugar ganha um Kit do Festival.
+                    </div>
+                </div>
+                <br>
+                <div class="text-danger d-flex flex-column align-items-center" style="background-color: grey;">
+                    <div class="text-uppercase fs-3">Tote Bags</div>
+                    <div class="p-1">2º até ao 5º Lugar ganha um Kit do Festival.
+                    </div>
+                </div>
+                <br>
+                <div class="text-danger d-flex flex-column align-items-center" style="background-color: grey;">
+                    <div class="text-uppercase fs-3">Canetas</div>
+                    <div class="p-1">2º até ao 5º Lugar ganha um Kit do Festival.
                     </div>
                 </div>
             </div>
-            <div class="col-4 p-0 border border-success">
+            <div class="col-4 p-2">
                 <i class="fa fa-ticket text-white" style="font-size: 90px;"></i>
+                <img src="./img/tshirt.jpg" class="img-fluid p-2">
+                <img src="./img/tote-bag.jpg" class="img-fluid p-2">
+                <img src="./img/pen.jpg" class="img-fluid p-2">
             </div>
         </div>
 

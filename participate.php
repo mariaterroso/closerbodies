@@ -22,7 +22,7 @@ if (isset($_GET['cartaz'])) {
 }
 ?>
 
-<body class="gradient">
+<body class="gradient-animation">
     <main class="container">
         <div class="row box-color p-2">
             <a href="./index.php" class="text-decoration-none">
@@ -31,7 +31,7 @@ if (isset($_GET['cartaz'])) {
         </div>
 
         <div class="row p-3 my-2">
-            <img src="./img/Group.svg" class="img-fluid w-25">
+            <img src="./img/Group.svg" class="img-fluid angry-animate-2 w-25">
         </div>
 
         <div class="row mb-1">
@@ -54,7 +54,7 @@ if (isset($_GET['cartaz'])) {
                         <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
                     </div>
                     <div class="d-flex align-items-center text-danger">
-                        Aceito que o Festival Circular publique a minha fotografia nas redes sociais se for um dos vencedores
+                        Aceito que o Festival Circular me mencione nas redes sociais se for um dos vencedores
                     </div>
                 </div>
             </div>

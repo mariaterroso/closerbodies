@@ -50,7 +50,7 @@ include("connection.php");
                 </div>
                 <div class="row mb-1">
                     <div class="d-flex justify-content-center flex-column text-danger">
-                        <div class="text-uppercase text-center fw-bolder" style="font-size: 40px;">poster scanned!</div><br>
+                        <div class="text-uppercase text-center fw-bolder" style="font-size: 40px;">poster scaneado!</div><br>
                     </div>
                 </div>
                 <?php
@@ -62,7 +62,7 @@ include("connection.php");
                     <input type="hidden" value="<?php echo $email; ?>" name="emailForCollection">
 
                     <div class="d-flex justify-content-center">
-                        <button type="submit" name="checkCollected" class="btn btn-danger btn-block mb-2">Check Collected</button>
+                        <button type="submit" name="checkCollected" class="btn btn-danger btn-block mb-2">Ver colectados</button>
                     </div>
                 </form>
 
@@ -74,7 +74,7 @@ include("connection.php");
 
                 <div class="row box-color p-2">
                     <a href="./index.php" class="text-decoration-none">
-                        <i class="fa fa-arrow-left text-white">&nbsp; BACK</i>
+                        <i class="fa fa-arrow-left text-white">&nbsp; VOLTAR</i>
                     </a>
                 </div>
 
@@ -83,14 +83,14 @@ include("connection.php");
                 </div>
                 <div class="row mb-1">
                     <div class="d-flex justify-content-center flex-column text-danger">
-                        <div class="text-uppercase text-center fw-bolder" style="font-size: 40px;">poster scanned!</div><br>
+                        <div class="text-uppercase text-center fw-bolder" style="font-size: 40px;">poster scaneado!</div><br>
                     </div>
                 </div>
 
                 <?php
 
-                echo "You successfully scanned the poster number " . $scannedCartaz . " and your email is now registered 
-                and ready to participate, when you scan a new card please use this email:<b> $email </b>";
+                echo "Scaneaste com sucesso o poster número " . $scannedCartaz . " e o teu email está agora registado e pronto para participar. 
+                Sempre que scaneares um novo poster, por favor utiliza este email:<b> $email </b>";
 
                 $sql = "INSERT INTO `user` (`email`, `name`) VALUES ('" . $_POST['email'] . "', 'User')";
                 $result = $conn->query($sql);
