@@ -20,7 +20,7 @@ include("connection.php");
 $videoFileName = "dancebw.mov";
 ?>
 
-<body class="gradient">
+<body class="gradient-animation">
     <main class="container">
         <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="./video/dancebw.mov" allowfullscreen></iframe>

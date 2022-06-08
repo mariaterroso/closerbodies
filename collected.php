@@ -28,6 +28,7 @@ include("connection.php");
 
 <body class="gradient-animation">
     <main class="container">
+    <div class="circle"></div>
 
         <!-- Check if the user has logged in with success -->
         <?php
@@ -53,7 +54,7 @@ include("connection.php");
 
             <div class="row box-color p-2">
                 <a href="./index.php" class="text-decoration-none">
-                    <i class="fa fa-arrow-left text-white">&nbsp; VOLTAR</i>
+                <i class="fa fa-arrow-left text-back" style="font-size: 25px;">&nbsp; VOLTAR</i>
                 </a>
             </div>
 
@@ -63,7 +64,7 @@ include("connection.php");
 
             <div class="row mb-3">
                 <div class="d-flex justify-content-center flex-column text-danger">
-                    <div class="text-uppercase text-center fw-bolder" style="font-size: 40px;">colectado</div><br>
+                    <div class="text-uppercase text-center fw-bolder text-color" style="font-size: 40px;">colectado</div><br>
                 </div>
             </div>
 
@@ -80,7 +81,7 @@ include("connection.php");
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title">Modal title</h5>
+                                    <h5 class="modal-title text-color">Modal title</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>

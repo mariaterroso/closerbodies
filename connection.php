@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username = "myuser";
-$password = "123";
+$username = "random";
+$password = "random";
 $dbname = "closerbodies";
 
 // Create connection

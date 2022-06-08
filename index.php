@@ -34,7 +34,7 @@
                 <a href="./participate.php" class="text-decoration-none">
                     <div class="d-flex align-items-center flex-column p-3 mb-2 box-color text-white  rounded-3 main-button">
                         <i class="fa fa-gamepad" style="font-size: 50px;"></i>
-                        <p>PARTICIPAR</p>
+                        <p class="text-uppercase text-center fs-6 fw-bolder">PARTICIPAR</p>
                     </div>
                 </a>
             </div>
@@ -42,7 +42,7 @@
                 <a href="./signin.php" class="text-decoration-none">
                     <div class="d-flex align-items-center flex-column p-3 mb-2 box-color text-white  rounded-3 main-button">
                         <i class="fa fa-check-circle-o" style="font-size: 50px;"></i>
-                        <p>COLECTADO</p>
+                        <p class="text-uppercase text-center fs-6 fw-bolder">COLECTADO</p>
                     </div>
                 </a>
             </div>
@@ -50,7 +50,7 @@
                 <a href="./awards.php" class="text-decoration-none">
                     <div class="d-flex align-items-center flex-column p-3 mb-2 box-color text-white rounded-3 main-button">
                         <i class="fa fa-star" style="font-size: 50px;"></i>
-                        <p>PRÉMIOS</p>
+                        <p class="text-uppercase text-center fs-6 fw-bolder">PRÉMIOS</p>
                     </div>
                 </a>
             </div>
@@ -58,7 +58,7 @@
                 <a href="./info.php" class="text-decoration-none">
                     <div class="d-flex align-items-center flex-column p-3 mb-2 box-color text-white  rounded-3 main-button">
                         <i class="fa fa-info-circle" style="font-size: 50px;"></i>
-                        <p>INFO</p>
+                        <p class="text-uppercase text-center fs-6 fw-bolder">INFO</p>
                     </div>
                 </a>
             </div>

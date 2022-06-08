@@ -24,25 +24,25 @@ if (isset($_GET['cartaz'])) {
 
 <body class="gradient-animation">
     <main class="container">
-        <div class="row box-color p-2">
+        <div class="row p-2">
             <a href="./index.php" class="text-decoration-none">
-                <i class="fa fa-arrow-left text-white">&nbsp; VOLTAR</i>
+            <i class="fa fa-arrow-left text-back" style="font-size: 25px;">&nbsp; VOLTAR</i>
             </a>
         </div>
 
-        <div class="row p-3 my-2">
-            <img src="./img/Group.svg" class="img-fluid angry-animate-2 w-25">
+        <div class="row p-3 my-2 d-flex justify-content-center">
+        <img src="./img/Group.svg" class="img-fluid angry-animate-2" style="width: 60%;" >
         </div>
 
         <div class="row mb-1">
-            <div class="d-flex justify-content-center flex-column text-danger">
+            <div class="d-flex justify-content-center flex-column text-color">
                 <div class="text-uppercase text-center fw-bolder" style="font-size: 40px;">participar</div><br>
             </div>
         </div>
 
         <form method="POST" action="./partipateSuccess.php">
             <div class="row mx-1">
-                <div class="d-flex justify-content-center text-danger">
+                <div class="d-flex justify-content-center text-color">
                     <h4>Introduz o teu email</h4>
                 </div>
                 <input type="email" name="email" class="form-control">
@@ -53,7 +53,7 @@ if (isset($_GET['cartaz'])) {
                     <div class="mx-2 d-flex align-items-center">
                         <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
                     </div>
-                    <div class="d-flex align-items-center text-danger">
+                    <div class="d-flex align-items-center text-color">
                         Aceito que o Festival Circular me mencione nas redes sociais se for um dos vencedores
                     </div>
                 </div>
@@ -62,7 +62,7 @@ if (isset($_GET['cartaz'])) {
             <input type="hidden" value="<?php echo $cartazScanned; ?>" name="scannedCartaz">
 
             <div class="d-flex justify-content-center">
-                <button type="submit" name="submit" class="btn btn-danger btn-block mb-2">Participar</button>
+                <button type="submit" name="submit" class="Buttons">Participar</button>
             </div>
         </form>
 

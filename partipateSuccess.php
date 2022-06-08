@@ -18,8 +18,9 @@
 include("connection.php");
 ?>
 
-<body class="gradient">
+<body class="gradient-animation">
     <main class="container">
+    <div class="circle"></div>
 
         <!-- Submit button -->
         <?php
@@ -41,7 +42,7 @@ include("connection.php");
 
                 <div class="row box-color p-2">
                     <a href="./collected.php" class="text-decoration-none">
-                        <i class="fa fa-arrow-left text-white">&nbsp; BACK</i>
+                        <i class="fa fa-arrow-left text-color">&nbsp; BACK</i>
                     </a>
                 </div>
 
@@ -49,7 +50,7 @@ include("connection.php");
                     <img src="./img/Group.svg" class="img-fluid w-25">
                 </div>
                 <div class="row mb-1">
-                    <div class="d-flex justify-content-center flex-column text-danger">
+                    <div class="d-flex justify-content-center flex-column text-color">
                         <div class="text-uppercase text-center fw-bolder" style="font-size: 40px;">poster scaneado!</div><br>
                     </div>
                 </div>
@@ -72,17 +73,17 @@ include("connection.php");
 
                 ?>
 
-                <div class="row box-color p-2">
+                <div class="row p-2">
                     <a href="./index.php" class="text-decoration-none">
                         <i class="fa fa-arrow-left text-white">&nbsp; VOLTAR</i>
                     </a>
                 </div>
 
                 <div class="row p-3 my-2">
-                    <img src="./img/Group.svg" class="img-fluid w-25">
+                    <img src="./img/Group.svg" class="img-fluid angry-animate-2">
                 </div>
                 <div class="row mb-1">
-                    <div class="d-flex justify-content-center flex-column text-danger">
+                    <div class="d-flex justify-content-center flex-column text-color">
                         <div class="text-uppercase text-center fw-bolder" style="font-size: 40px;">poster scaneado!</div><br>
                     </div>
                 </div>
