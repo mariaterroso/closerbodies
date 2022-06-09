@@ -31,7 +31,7 @@ if (isset($_GET['cartaz'])) {
         </div>
 
         <div class="row p-3 my-2 d-flex justify-content-center">
-        <img src="./img/Group.svg" class="img-fluid angry-animate-2" style="width: 60%;" >
+        <img src="./img/Group.svg" class="img-fluid angry-animate-2" style=" filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(201deg) brightness(106%) contrast(106%); width: 60%;" >
         </div>
 
         <div class="row mb-1">

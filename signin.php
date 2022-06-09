@@ -28,7 +28,7 @@ include("connection.php");
         </div>
 
         <div class="row p-3 my-2 d-flex justify-content-center">
-        <img src="./img/Group.svg" class="img-fluid angry-animate-2" style="width: 60%;" >
+        <img src="./img/Group.svg" class="img-fluid angry-animate-2" style="width: 60%; filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(201deg) brightness(106%) contrast(106%);" >
         </div>
         <form action="./collected.php" method="POST">
             <!-- Email input -->

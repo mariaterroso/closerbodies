@@ -18,7 +18,7 @@
     <main class="container my-4">
         <div class="row mb-3">
             <div class="d-flex justify-content-center ">
-                <img src="./img/Group.svg" class="img-fluid w-50">
+                <img src="./img/Group.svg" class="img-fluid w-50" style="filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(201deg) brightness(106%) contrast(106%);">
             </div>
         </div>
 

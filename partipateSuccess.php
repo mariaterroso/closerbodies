@@ -20,7 +20,6 @@ include("connection.php");
 
 <body class="gradient-animation">
     <main class="container">
-    <div class="circle"></div>
 
         <!-- Submit button -->
         <?php
